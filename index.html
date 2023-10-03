@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="container">
+        <div class="star"><img src="./images/icon-star.svg" alt="" /></div>
+        <h1 class="title">How did we do?</h1>
+        <p class="txt">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rate">
+          <button type="button" value="5" class="item" id="5">5</button>
+          <button type="button" value="4" class="item" id="4">4</button>
+          <button type="button" value="3" class="item" id="3">3</button>
+          <button type="button" value="2" class="item" id="2">2</button>
+          <button type="button" value="1" class="item" id="1">1</button>
+        </div>
+        <button class="submit">submit</button>
+
+        <div class="thankYouCard indexdown">
+          <div class="thx">
+            <img src="./images/illustration-thank-you.svg" alt="" />
+          </div>
+
+          <div class="comunicate">
+            You selected <span id="result"></span> out of 5
+          </div>
+          <h2 class="gracias">Thank you!</h2>
+          <div class="appreciate">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/kasaparz">Katarzyna Stańdo</a>.
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
